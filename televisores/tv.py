@@ -66,4 +66,7 @@ class TV:
 
   def setNumTV(numero):
     TV.__numTV = numero
+    
+  def getNumTV(numero):
+    return TV.__numTV
 
