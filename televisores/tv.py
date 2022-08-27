@@ -64,8 +64,6 @@ class TV:
     if self.__volumen > 0 and self.__estado == True:
       self.__volumen -= 1
 
-  def setNumTV(self, numero):
+  def setNumTV(numero):
     TV.__numTV = numero
 
-  def getNumeroTV(self):
-    return TV.__numTV  
