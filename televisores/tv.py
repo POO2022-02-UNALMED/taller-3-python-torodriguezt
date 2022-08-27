@@ -65,7 +65,7 @@ class TV:
       self.__volumen -= 1
 
   def setNumTV(self, numero):
-    __numTV = numero
+    TV.__numTV = numero
 
   def getNumeroTV(self):
     return TV.__numTV  
